@@ -33,7 +33,7 @@
                 </div>
                 <div class="icon">
                     <div class="img">
-                        <img src="../assets/buy-dc-power-visa.svg" alt>
+                        <img style="height: 40px" src="../assets/buy-dc-power-visa.svg" alt>
                     </div>
                     <h3>DC power visa</h3>
                 </div>
@@ -63,24 +63,26 @@ export default {
     .menu_dc {
         background-color: #0282F9;
         color: white;
+        display: flex;
+        align-items: center;
+        height: 150px;
         .container {
             display: flex;
             justify-content: space-evenly;
+            align-items: center;
             .icon {
                 display: flex;
                 justify-content: flex-start;
                 align-items: center;
-                .img {
-                    display: inline-block;
-                    img {
-                        display: block;
-                        width: 50%;
-                    }
+                img {
+                    width: 100%;
+                    height: 60px;
                 }
                 h3 {
                     text-transform: uppercase;
                     font-weight: 400;
                     font-size: 15px;
+                    margin-left: 10px;
                 }
             }
         }
