@@ -110,6 +110,8 @@ export default {
     background-color: #1C1C1C;
     .hero_image {
         background-image: url(../assets/jumbotron.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
         height: 400px;
     }
     .container {
