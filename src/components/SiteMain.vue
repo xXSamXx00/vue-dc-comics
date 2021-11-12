@@ -123,7 +123,7 @@ export default {
             text-transform: uppercase;
         }
         .series {
-            padding: 60px 10px;
+            padding: 60px 10px 0;
         }
         .button {
             display: flex;
@@ -133,7 +133,7 @@ export default {
                 background-color: #0282F9;
                 border: 1px solid #0282F9;
                 color: white;
-                padding: 8px 35px;
+                padding: 8px 45px;
                 text-transform: uppercase;
                 font-size: 11px;
                 font-weight: bold;

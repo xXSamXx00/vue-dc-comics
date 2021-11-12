@@ -21,9 +21,15 @@ export default {
 .card {
     color: white;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 11px;
     img {
-        height: 200px;
+        height: 180px;
+        width: 180px;
+        object-fit: cover;
+        object-position: top;
+    }
+    h3 {
+        margin: 10px 0 20px;
     }
 }
 </style>
